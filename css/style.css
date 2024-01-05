@@ -79,11 +79,13 @@ body {
 .layers__title {
 	font-size: calc(var(--index) * 2.65);
 	letter-spacing: calc(var(--index) / 2.25);
+	transition: 4s;
 }
 .layers__caption {
 	font-size: calc(var(--index) / 1.175);
 	letter-spacing: calc(var(--index) / 3.5);
 	margin-top: calc(var(--index) * -.75);
+	transition: 3s;
 }
 .main-article {
 	--main-article-transform: translate3d(0, calc(var(--scrollTop) / -7.5), 0);
@@ -107,6 +109,7 @@ body {
 	transform: var(--main-article-transform);
 	transition: var(--transition);
 	will-change: transform;
+	margin-top: 360px;
 }
 .main-article__paragraph {
 	max-width: calc(var(--index) * 30);
@@ -115,6 +118,7 @@ body {
 	transform: var(--main-article-transform);
 	transition: var(--transition);
 	will-change: transform;
+	margin-bottom: 200px;
 }
 .content {
 	will-change: transform;
