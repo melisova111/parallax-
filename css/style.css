@@ -126,4 +126,3 @@ body {
 	font-size: calc(var(--index) * .75);
 	letter-spacing: calc(var(--index) / 37.5);
 }
-
