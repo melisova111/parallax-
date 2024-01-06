@@ -79,13 +79,13 @@ body {
 .layers__title {
 	font-size: calc(var(--index) * 2.65);
 	letter-spacing: calc(var(--index) / 2.25);
-	transition: 4s;
+	transition: 5s;
 }
 .layers__caption {
 	font-size: calc(var(--index) / 1.175);
 	letter-spacing: calc(var(--index) / 3.5);
 	margin-top: calc(var(--index) * -.75);
-	transition: 3s;
+	transition: 4s;
 }
 .main-article {
 	--main-article-transform: translate3d(0, calc(var(--scrollTop) / -7.5), 0);
