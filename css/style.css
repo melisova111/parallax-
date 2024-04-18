@@ -25,6 +25,7 @@ body {
 .main-header {
 	position: relative;
 }
+
 .main-header::after {
 	content: '';
 	position: absolute;
